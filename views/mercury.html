@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Mercury</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
+    <%- include('partials/header.ejs') %>
+        <header>
+            <h1>The Solar System</h1>
+        </header>
+        <nav>
+            <a href="/">Main</a>
+            <a href="/mercury"><strong>Mercury</strong></a>
+            <a href="/venus">Venus</a>
+            <a href="/earth">Earth</a>
+        </nav>
+        <hr>
         <h1>Mercury</h1>
         <img src="img/mercury.jpg" alt="The Planet Mercury" />
+        <p>
+            Mercury is the smallest planet in our solar system, as well as the closest planet to the Sun. Although closest to the sun, it is not the hottest planet.
+            Mercury's solar day is equivalent to 59 Earth days, and its year is equivalent to 88 Earth days.
+            It also does not have an atmosphere (not really) and is also a terrestrial planet.
+        </p>
     <%- include('partials/footer.ejs') %>

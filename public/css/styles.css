@@ -2,4 +2,34 @@ body {
     background-color: black;
     text-align: center;
     color: white;
+    font-family: 'Goldman', cursive;
 }
+
+nav {
+    text-align: center;
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+
+a {
+    padding: 5px;
+}
+
+a:visited {
+    color: white;
+}
+
+p {
+    font-size: 1.2em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    font-size: .8em;
+}
+
+hr {
+    border: 1px solid red;
+}
+

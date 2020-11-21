@@ -1,10 +1,18 @@
     <%- include('partials/header.ejs') %>
     
         <h1>Welcome to my Solar System Site!</h1>
-        <img src="img/solar_system.jpg" alt="The Solar System" width="1200" height="750"/>
-        <p>Click on a planet to learn more about it:</p>
         
+        <nav>
+            <a href="/"><strong>Main</strong></a>
+            <a href="/mercury">Mercury</a>
+            <a href="/venus">Venus<a>
+            <a href="/earth">Earth</a>
+        </nav>
+        <hr>
+        <img src="img/solar_system.jpg" alt="The Solar System" width="1200" height="750"/>
+        
+        <p>Click on a planet to learn more about it:</p>
         <a href="/mercury">Mercury</a><br>
         <a href="/Venus">Venus</a><br>
-        Earth <br>
+        <a href="/earth">Earth</a> <br>
     <%- include('partials/footer.ejs') %>
